@@ -16,7 +16,135 @@
 		<link rel="stylesheet" href="css/public.css">
 		<link rel="stylesheet" href="css/index.css">
 		<script src="./js/index.js"></script>
+		<!--中间详细商品信息部分架构-->
+			<style>
+		*{
+padding:0;
+margin:0;
+}
+li{
+list-style:none;
+}
+
+a{
+text-decoration:none;
+}
+.w{
+width:1226px;
+margin: 0 auto;
+}
+
+
+ .goods {
+     background-color: rgb(245, 245, 245);
+
+ }
+ 
+ .goods a {
+     color: #333;
+     line-height: 58px;
+ }
+ 
+ .goods_banner {
+     padding: 40px 0 0 0;
+ }
+ 
+ .goods .goods_header {
+     position: relative;
+     height: 64px;
+     font-family: "Microsoft Yahei";
+     font-weight: 200;
+ }
+ 
+ .goods .goods_header .goods_left {
+     float: left;
+     font-size: 22px;
+ }
+ 
+ .goods .goods_header .goods_right {
+     float: right;
+     font-size: 16px;
+ }
+ 
+ .goods .w .goods_header .goods_right a em {
+     line-height: 64px;
+     font-family: "icomoon";
+ }
+ 
+ .goods .w .goods_header .goods_right a:hover {
+     color: #ff6700;
+ }
+ 
+ .goods_body_left {
+     float: left;
+     width: 234px;
+     height: 614px;
+     box-shadow: 2px 2px 10px 1px rgb(196, 192, 192);
+     transition: all .2s;
+ }
+ 
+ .goods_body_left:hover {
+     transform: translate(0, -3px);
+ }
+ 
+ .goods_body_right li {
+     float: left;
+     margin-left: 14px;
+     margin-bottom: 14px;
+     width: 234px;
+     padding: 15px 0;
+     background-color: #fff;
+     text-align: center;
+     font-family: "Microsoft Yahei";
+     box-shadow: 2px 2px 10px 1px rgba(196, 192, 192, .4);
+     transition: all .2s;
+ }
+ 
+ .goods_body_right li:hover {
+     transform: translate(0, -3px);
+ }
+ 
+ .goods_body_right li a {
+     display: inline-block;
+     width: 234px;
+ }
+ 
+ .goods_body_right li img {
+     vertical-align: bottom;
+     width: 160px;
+     height: 160px;
+     margin: 0 auto;
+ }
+ 
+ .goods_body_right li h3 {
+     margin: 0 0 2px 0;
+     height: 21px;
+     width: 214px;
+     font-size: 14px;
+     font-weight: normal;
+     color: #000;
+ }
+ 
+ .goods_body .goods_body_right li p {
+     margin: 0 10px 10px 10px;
+     width: 214px;
+     height: 18px;
+     color: rgb(156, 161, 167);
+     font-size: 12px;
+ }
+ 
+ .goods_body .goods_body_right li span {
+     margin: 0 10px 14px 10px;
+     display: inline-block;
+     width: 214px;
+     height: 21px;
+     color: rgb(255, 103, 0);
+     font-size: 14px;
+ }
+
+</style>
 	</head>
+	
 	<body>
 		<!-- 顶部公共样式 -->
 		<div class="head_nav">
@@ -148,6 +276,69 @@
 		        </li>
 		    </ul>
 		</div>
+	
 		
+		
+		<!--中间详细商品信息部分架构-->
+			<div class="goods clearfix">
+            <div class="w clearfix">
+                <div class="goods_header clearfix">
+                    <span class="goods_left"><a href="none.html">手机</a></span>
+                    <span class="goods_right"><a href="https://www.mi.com/a/h/14933.html">查看全部 <em></em></a></span>
+                </div>
+                <div class="goods_body clearfix">
+                    <div class="goods_body_left">
+                        <a href="https://www.mi.com/shop/buy/detail?product_id=18075"><img width="230px" height="450px"   src="shou1(11).webp" alt="" ></a>
+                    </div>
+                    <div class="goods_body_right">
+                        <ul>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=18119"><img src="shou2.png"  alt="">
+                                    <h3>Redmi 12C</h3>
+                                    <p>高性能长续航，5000万像素超清双摄</p><span>699元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=18075"><img src="shou3.png" alt="">
+                                    <h3>Redmi K60</h3>
+                                    <p>骁龙8+|2K高光直屏|5500mAh+67...</p><span>2499元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=18077"><img src="shou4.png" alt="">
+                                    <h3>Redmi K60 Pro</h3>
+                                    <p>【第二代骁龙8】狂暴引擎</p><span>3299元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=18092"><img src="shou5.png" alt="">
+                                    <h3>Redmi Note 12 Pro 极速版</h3>
+                                    <p>高通骁龙778G，OLED柔性直屏+一亿...</p><span>1699元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=17972"><img src="shou6.png" alt="">
+                                    <h3>Xiaomi 13限量定制色</h3>
+                                    <p>全新第二代骁龙8|徕卡专业光学镜头...</p><span>4399元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=17969"><img src="shou7.png" alt="">
+                                    <h3>Xiaomi 13Pro</h3>
+                                    <p>全新第二代骁龙8|徕卡专业光学镜头...</p><span>4399元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=17971"><img src="shou8.png" alt="">
+                                    <h3>Xiaomi 13 </h3>
+                                    <p>全新第二代骁龙8|徕卡专业光学镜头...</p><span>3999元起</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.mi.com/shop/buy/detail?product_id=16642"><img src="shou9.png" alt="">
+                                    <h3>Redmi Note 12 5G</h3>
+                                    <p>三星OLED护眼屏|骁龙5G芯|50...</p><span>1199元起</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- fdgsfdg -->
+
+            </div>
+        </div>
+    </div>
 	</body>
 </html>
